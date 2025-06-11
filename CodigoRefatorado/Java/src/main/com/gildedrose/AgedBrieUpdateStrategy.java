@@ -19,9 +19,3 @@ public class AgedBrieUpdateStrategy implements ItemUpdateStrategy{
     }
 }
 
-/**
- * Estratégia para "Aged Brie".
- * - Qualidade aumenta em 1 a cada dia.
- * - Quando o sellIn passa de 0, a qualidade aumenta em 2.
- * - Qualidade nunca excede 50.
- */
